@@ -4,7 +4,6 @@
   "package": "me.fallenbreath.template_mod.mixins",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "MinecraftServerMixin"
   ],
   "client": [
   ],

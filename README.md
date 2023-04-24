@@ -2,6 +2,10 @@
 
 [![License](https://img.shields.io/github/license/Fallen-Breath/fabric-mod-template.svg)](http://www.gnu.org/licenses/lgpl-3.0.html)
 
-fallen's fabric mod template
+This mod uses Fallen's fabric mod template.
 
-you can use this templete for your mods too, as long as its license is followed
+Stuff to change when making a new mod:
+- fabric.mod.json
+- template_mod.mixins.json
+- icon.png
+- gradle.properties
