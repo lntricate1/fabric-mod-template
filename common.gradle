@@ -82,6 +82,7 @@ processResources {
         "name": project.mod_name,
         "version": fullModVersion,
         "minecraft_dependency": project.minecraft_dependency,
+        "carpet_dependency": project.carpet_dependency,
     ]
     expand valueMap
   }

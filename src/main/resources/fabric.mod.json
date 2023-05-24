@@ -9,22 +9,22 @@
     "lntricate"
   ],
   "contact": {
-    "sources": "https://github.com/"
+    "sources": "https://github.com/lntricate1/"
   },
 
-  "icon": "assets/template_mod/icon.png",
+  "icon": "assets/${id}/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "me.lntricate.template_mod.TemplateMod"
+      "me.lntricate.${id}.TemplateMod"
     ],
     "preLaunch": [
-      "me.lntricate.template_mod.PreLaunch"
+      "me.lntricate.${id}.PreLaunch"
     ]
   },
   "mixins": [
-    "template_mod.mixins.json"
+    "${id}.mixins.json"
   ],
 
   "depends": {
